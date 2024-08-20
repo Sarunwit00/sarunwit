@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreadCrumb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div class="container">
+        <!-- สร้าง BreadCrumb -->
+        <ol class="Breadcrumb">
+            <li class="Breadcrumb-iteam">สินค้า</li> 
+            <li class="Breadcrumb-iteam">เฟอร์นิเจอร์</li>
+            <li class="Breadcrumb-iteam">โซฟา</li>
+        </ol>
+        <!-- แบบ Link -->
+        <ol class="Breadcrumb">
+            <li class="Breadcrumb-iteam"><a href="#">สินค้า</a></li>
+            <li class="Breadcrumb-iteam"><a href="#">เฟอร์นิเจอร์</a></li>
+            <li class="Breadcrumb-iteam"><a href="#">โซฟา</a></li>
+        </ol>
+        <!-- Badge -->
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between">สินค้าทั้งหมด<span class="Badge bg-success">45</span></li>
+            <li class="list-group-item d-flex justify-content-between">เฟอร์นิเจอร์<span class="Badge bg-primary">15</span></li>
+            <li class="list-group-item d-flex justify-content-between">เครื่องใช้ไฟฟ้า<span class="Badge bg-danger">15</span></li>
+            <li class="list-group-item d-flex justify-content-between">เครื่องสำอางค์<span class="Badge bg-warning">15</span></li>
+        </ul>
+    </div>
+</body>
+</html>
